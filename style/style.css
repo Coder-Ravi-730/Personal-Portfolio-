@@ -57,7 +57,7 @@ p {
     /* color: var(--para); */
     color: aliceblue;
     line-height: 1.6;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .btn {
@@ -144,8 +144,7 @@ li {
 
 #mail-id:hover {
     color: aliceblue;
-    transition: color 0.3s ease-in;
-    font-size: large;
+    transition: color 1s ease-in;
 }
 
 .header .logo {
@@ -202,9 +201,9 @@ li {
     .mobile-nav-btn {
         display: block;
         z-index: 9999;
-        border: 3px solid black;
+        /* border: 3px solid black; */
         color: #212529;
-        margin-right: 2rem;
+        /* margin-right: 2rem; */
     }
 
     .mobile-nav-icon {
@@ -297,7 +296,7 @@ li {
 .sticky .header {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 2px;
     width: 93%;
     z-index: 9999;
     padding-bottom: 0;
@@ -1097,7 +1096,7 @@ ion-icon {
     }
 
     #mail-id {
-        margin-left: -1rem;
+        margin-left: 0rem;
     }
 }
 
@@ -1208,7 +1207,7 @@ ion-icon {
 
 @media only screen and (max-width: 620px) {
     .bio-image img {
-        max-height: 57rem;
+        max-height: 40rem;
     }
 }
 
@@ -1227,6 +1226,16 @@ ion-icon {
     }
     .progress-bar-3 span{
         left: 51.5%;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .sticky .header{
+        left: -22px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .sticky .header{
+        left: 2px;
     }
 }
 /* @media only screen and (max-width: 360px) {
