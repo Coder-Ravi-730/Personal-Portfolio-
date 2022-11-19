@@ -1110,15 +1110,15 @@ ion-icon {
     }
 }
 
-@media only screen and (max-width: 870px) {
+/* @media only screen and (max-width: 858px) {
     .progress-bar-5 span {
-        left: 74%;
+        left: 72%;
     }
-}
+} */
 
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 858px) {
     .progress-bar-5 span {
-        left: 92%;
+        left: 72%;
     }
 }
 
@@ -1136,21 +1136,21 @@ ion-icon {
     }
 
     .progress-bar-2 span {
-        left: 62%;
+        left: 34%;
     }
 
     .progress-bar-3 span {
-        left: 62%;
+        left: 51%;
     }
 
     .progress-bar-5 span {
-        left: 92%;
+        left: 72%;
     }
 }
 
 @media only screen and (max-width: 694px) {
     .progress-bar-4 span {
-        left: 92%;
+        left: 93.3%;
     }
 
     .progress-bar-1 span {
@@ -1158,7 +1158,10 @@ ion-icon {
     }
 
     .progress-bar-2 span {
-        left: 66%;
+        left: 36%;
+    }
+    .progress-bar-3 span {
+        left: 56%;
     }
 
     .progress-bar-5 span {
@@ -1166,21 +1169,24 @@ ion-icon {
     }
 }
 
-@media only screen and (max-width: 384px) {
+@media only screen and (max-width: 558px) {
     .progress-bar-4 span {
-        left: 90%;
+        left: 92%;
     }
 
     .progress-bar-1 span {
-        left: 68%;
+        left: 70.3%;
+    }
+    .progress-bar-3 span {
+        left: 55.5%;
     }
 
     .progress-bar-2 span {
-        left: 63%;
+        left: 35.5%;
     }
 
     .progress-bar-5 span {
-        left: 73%;
+        left: 75%;
     }
 
     .section-contact-main input[type="submit"] {
@@ -1200,7 +1206,26 @@ ion-icon {
     }
 }
 
+@media only screen and (max-width: 400px) {
+    .progress-bar-1 span{
+        left: 68%;
+    }
+    .progress-bar-4 span{
+        left: 91%;
+    }
+    .progress-bar-5 span{
+        left: 74%;
+    }
+    .progress-bar-2 span{
+        left: 33.5%;
+    }
+    .progress-bar-3 span{
+        left: 33.5%;
+    }
+}
+/* @media only screen and (max-width: 360px) {
 
+} */
 /* 
 ====================================================
 3D Model Check
