@@ -1265,8 +1265,18 @@ Emmoji Waveing Testing
   }
   
   
-  
-  
-  /* For demonstration purposes only: */
-  body { font-size: 3.5em }
-  h1 { font-size: 0.5em }
+/* ========================================= */
+/* Skills Section Animation */
+/* ========================================= */
+
+/* span{
+    animation: skills-animation 1s 2 alternate;
+}
+
+@keyframes skills-animation {
+    from {
+        transform: translateY(0%);
+    }to{
+        transform: translateY((50%));
+    }
+} */
