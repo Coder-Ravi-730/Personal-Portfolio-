@@ -525,7 +525,8 @@ Change this later
     width: 4rem;
     height: 2rem;
     /* background-color: var(--helper); */
-    background-color: black;
+    /* background-color: black; */
+    background-color: var(--helper);
     color: var(--white);
     display: flex;
     justify-content: center;
