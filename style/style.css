@@ -1270,9 +1270,6 @@ Emmoji Waveing Testing
 /* Skills Section Animation */
 /* ========================================= */
 
-/* span{
-    animation: skills-animation 1s 2 alternate;
-}
 
 @keyframes skills-animation {
     from {
@@ -1280,4 +1277,4 @@ Emmoji Waveing Testing
     }to{
         transform: translateY((50%));
     }
-} */
+} 
